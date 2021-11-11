@@ -1,0 +1,72 @@
+    @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,700;1,600&family=Libre+Franklin:wght@600&display=swap');
+* {
+    margin:0;
+    padding: 0;
+}
+:root {
+    --h1-font-family: 'Libre Franklin', sans-serif;
+    --h1-line-height: 4.31rem;
+    --h1-width: 58px;
+    --h1-height: 69px;
+    --h1-font-size: 46px;
+    --h1-font-weight: 600;
+    --h1-text-color: #222549;
+
+    --h2-font-family: 'Libre Franklin', sans-serif;
+    --h2-line-height: 3.37rem;
+    --h2-width:52px;
+    --h2-height: 54px;
+    --h2-font-size: 37px;
+    --h2-font-weight: 600;
+    --h2-text-color: #222549;
+
+    --h3-font-family: 'Libre Franklin', sans-serif;
+    --h3-line-height: 2.75rem;
+    --h3-width:40px;
+    --h3-height: 44px;
+    --h3-font-size: 28px;
+    --h3-font-weight: 600;
+    --h3-text-color: #222549;
+
+    --h4-font-family: 'Libre Franklin', sans-serif;
+    --h4-line-height: 2rem;
+    --h4-width:30px;
+    --h4-height: 32px;
+    --h4-font-size: 21px;
+    --h4-font-weight: 600;
+    --h4-text-color: #222549;
+}
+
+
+h1 {
+    font-family: var(--h1-font-family);
+    line-height: var(--h1-line-height);
+    width: var(--h1-width);
+    height: var(--h1-height);
+    font-size:  var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+    color: var(--h1-text-color);
+}
+
+h2 {
+    font-family: var(--h2-font-family);
+    line-height: var(--h2-line-height);
+    width: var(--h2-width);
+    height: var(--h2-width);
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weight);
+    color: var(--h2-text-color);
+}
+
+h3 {
+    font-family: var(--h3-font-family);
+    line-height: var(--h3-line-height);
+    width: var(--h3-width);
+    height: var(--h3-width);
+    font-size: var(--h3-font-size);
+    font-weight: var(--h3-font-weight);
+    color: var(--h3-text-color);
+}
+
+
+
