@@ -1,9 +1,10 @@
-    @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,700;1,600&family=Libre+Franklin:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,700;1,600&family=Libre+Franklin:wght@400;600&display=swap');
 * {
     margin:0;
     padding: 0;
 }
 :root {
+    /* H1 */
     --h1-font-family: 'Libre Franklin', sans-serif;
     --h1-line-height: 4.31rem;
     --h1-width: 58px;
@@ -12,6 +13,7 @@
     --h1-font-weight: 600;
     --h1-text-color: #222549;
 
+    /* H2 */
     --h2-font-family: 'Libre Franklin', sans-serif;
     --h2-line-height: 3.37rem;
     --h2-width:52px;
@@ -19,6 +21,8 @@
     --h2-font-size: 37px;
     --h2-font-weight: 600;
     --h2-text-color: #222549;
+
+    /* H3 */
 
     --h3-font-family: 'Libre Franklin', sans-serif;
     --h3-line-height: 2.75rem;
@@ -28,6 +32,7 @@
     --h3-font-weight: 600;
     --h3-text-color: #222549;
 
+        /* H4 */
     --h4-font-family: 'Libre Franklin', sans-serif;
     --h4-line-height: 2rem;
     --h4-width:30px;
@@ -35,6 +40,59 @@
     --h4-font-size: 21px;
     --h4-font-weight: 600;
     --h4-text-color: #222549;
+
+    /* Body 1 text */
+    --body1-text-width: 50px;
+    --body1-text-height: 22px; 
+    --body1-text-font-family: 'Libre Franklin', sans-serif;
+    --body1-text-weight: 400;
+    --body1-font-size: 16px;
+    --body1-text-line-height: 1.5rem;
+    --body1-text-color: #222549;
+
+    /* Body 2 text  */
+    --body2-text-width: 46px;
+    --body2-text-height: 22px; 
+    --body2-text-font-family: 'Libre Franklin', sans-serif;
+    --body2-text-weight: 400;
+    --body2-font-size: 14px;
+    --body2-text-line-height: 1.5rem;
+    --body2-text-color: #222549;
+    
+    /* Big button text */
+    --big-button-width: 91px;
+    --big-button-height: 24px;
+    --big-button-font-family: 'Libre Franklin', sans-serif;
+    --big-button-weight: 700;
+    --big-button-size: 16px;
+    --big-button-line-height: 1.5rem;
+    --big-button-text-color: #222549;
+    --big-button-letter-spacing: 1px;
+
+    /* Small button text */
+    --small-button-width: 97px;
+    --small-button-height: 16px;
+    --small-button-font-family: 'Libre Franklin', sans-serif;
+    --small-button-font-weight: 700;
+    --small-button-size: 14px;
+    --small-button-line-height: 1rem;
+    --small-button-letter-spacing: 1px;
+    --small-button-text-color: #222549;
+
+    /* Caption text */
+    --caption-width: 45px;
+    --caption-height: 16px;
+    --caption-font-family: 'Libre Franklin', sans-serif;
+    --caption-weight: 500;
+    --caption-size: 12px;
+    --caption-line-height: 1rem;
+    --caption-text-color: #222549;
+    --caption-text-align: center;
+
+    /* Color palette */
+    --primary-color: #353A8D;
+    --accent-color: #40DD9C;
+    --neutral-color: #36385A;
 }
 
 
@@ -68,5 +126,73 @@ h3 {
     color: var(--h3-text-color);
 }
 
+h4 {
+    font-family: var(--h4-font-family);
+    line-height: var(--h4-line-height);
+    width: var(--h4-width);
+    height: var(--h4-width);
+    font-size: var(--h4-font-size);
+    font-weight: var(--h4-font-weight);
+    color: var(--h4-text-color);
+}
+
+.body1_text 
+{
+    width: var(--body1-text-width);
+    height: var(--body1-text-height);
+    font-family: var(--body1-text-font-family);
+    font-weight: var(--body1-text-weight);
+    font-size:var(--body1-font-size);
+    line-height: var(--body1-text-line-height);
+    color: var(--body1-text-color);
+}
+
+.body2_text 
+{
+        width: var(--body2-text-width);
+        height: var(--body2-text-height);
+        font-family:var(--body2-text-font-family);
+        font-weight: var(--body2-text-weight);
+        font-size: var(--body2-font-size);
+        line-height: var(--body2-text-line-height);
+        color: var(--body2-text-color);
+}
 
 
+.button_big {
+        width: var(--big-button-width);
+        height: var(--big-button-height);
+        font-family: var(--big-button-font-family);
+        font-weight: var(--big-button-weight);
+        font-size: var(--big-button-size);
+        line-height: var(--big-button-line-height);
+        color:var(--big-button-text-color);
+        letter-spacing: var(--big-button-letter-spacing);
+}
+
+.button-small {
+    width: var(--small-button-width);
+    height: var(--small-button-line-height);
+    font-family: var(--small-button-font-family);
+    font-weight: var(--small-button-font-weight);
+    font-size: var(--small-button-size);
+    line-height: var(--small-button-line-height);
+    letter-spacing: var(--small-button-letter-spacing);
+    color: var(--small-button-text-color);
+}
+
+.caption {
+    width: var(--caption-width);
+    height: var(--caption-height);
+    font-family: var(--caption-font-family);
+    font-weight: var(--caption-weight);
+    font-size: var(--caption-size);
+    line-height: var(--caption-height);
+    color: var(--caption-text-color);
+    text-align: var(--caption-text-align);
+}
+
+
+.colors .primary_color {
+    color: #353A8D;
+}
