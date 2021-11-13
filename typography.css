@@ -1,198 +1,513 @@
-@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,700;1,600&family=Libre+Franklin:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,700;1,600&family=Libre+Franklin:wght@400;600&display=swap");
 * {
-    margin:0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 :root {
-    /* H1 */
-    --h1-font-family: 'Libre Franklin', sans-serif;
-    --h1-line-height: 4.31rem;
-    --h1-width: 58px;
-    --h1-height: 69px;
-    --h1-font-size: 46px;
-    --h1-font-weight: 600;
-    --h1-text-color: #222549;
+  /* H1 */
+  --h1-font-family: "Libre Franklin", sans-serif;
+  --h1-line-height: 4.31rem;
+  --h1-width: 58px;
+  --h1-height: 69px;
+  --h1-font-size: 46px;
+  --h1-font-weight: 600;
+  --h1-text-color: #222549;
 
-    /* H2 */
-    --h2-font-family: 'Libre Franklin', sans-serif;
-    --h2-line-height: 3.37rem;
-    --h2-width:52px;
-    --h2-height: 54px;
-    --h2-font-size: 37px;
-    --h2-font-weight: 600;
-    --h2-text-color: #222549;
+  /* H2 */
+  --h2-font-family: "Libre Franklin", sans-serif;
+  --h2-line-height: 3.37rem;
+  --h2-width: 52px;
+  --h2-height: 54px;
+  --h2-font-size: 37px;
+  --h2-font-weight: 600;
+  --h2-text-color: #222549;
 
-    /* H3 */
+  /* H3 */
 
-    --h3-font-family: 'Libre Franklin', sans-serif;
-    --h3-line-height: 2.75rem;
-    --h3-width:40px;
-    --h3-height: 44px;
-    --h3-font-size: 28px;
-    --h3-font-weight: 600;
-    --h3-text-color: #222549;
+  --h3-font-family: "Libre Franklin", sans-serif;
+  --h3-line-height: 2.75rem;
+  --h3-width: 40px;
+  --h3-height: 44px;
+  --h3-font-size: 28px;
+  --h3-font-weight: 600;
+  --h3-text-color: #222549;
 
-        /* H4 */
-    --h4-font-family: 'Libre Franklin', sans-serif;
-    --h4-line-height: 2rem;
-    --h4-width:30px;
-    --h4-height: 32px;
-    --h4-font-size: 21px;
-    --h4-font-weight: 600;
-    --h4-text-color: #222549;
+  /* H4 */
+  --h4-font-family: "Libre Franklin", sans-serif;
+  --h4-line-height: 2rem;
+  --h4-width: 30px;
+  --h4-height: 32px;
+  --h4-font-size: 21px;
+  --h4-font-weight: 600;
+  --h4-text-color: #222549;
 
-    /* Body 1 text */
-    --body1-text-width: 50px;
-    --body1-text-height: 22px; 
-    --body1-text-font-family: 'Libre Franklin', sans-serif;
-    --body1-text-weight: 400;
-    --body1-font-size: 16px;
-    --body1-text-line-height: 1.5rem;
-    --body1-text-color: #222549;
+  /* Body 1 text */
+  --body1-text-width: 50px;
+  --body1-text-height: 22px;
+  --body1-text-font-family: "Libre Franklin", sans-serif;
+  --body1-text-weight: 400;
+  --body1-font-size: 16px;
+  --body1-text-line-height: 1.5rem;
+  --body1-text-color: #222549;
 
-    /* Body 2 text  */
-    --body2-text-width: 46px;
-    --body2-text-height: 22px; 
-    --body2-text-font-family: 'Libre Franklin', sans-serif;
-    --body2-text-weight: 400;
-    --body2-font-size: 14px;
-    --body2-text-line-height: 1.5rem;
-    --body2-text-color: #222549;
-    
-    /* Big button text */
-    --big-button-width: 91px;
-    --big-button-height: 24px;
-    --big-button-font-family: 'Libre Franklin', sans-serif;
-    --big-button-weight: 700;
-    --big-button-size: 16px;
-    --big-button-line-height: 1.5rem;
-    --big-button-text-color: #222549;
-    --big-button-letter-spacing: 1px;
+  /* Body 2 text  */
+  --body2-text-width: 46px;
+  --body2-text-height: 22px;
+  --body2-text-font-family: "Libre Franklin", sans-serif;
+  --body2-text-weight: 400;
+  --body2-font-size: 14px;
+  --body2-text-line-height: 1.5rem;
+  --body2-text-color: #222549;
 
-    /* Small button text */
-    --small-button-width: 97px;
-    --small-button-height: 16px;
-    --small-button-font-family: 'Libre Franklin', sans-serif;
-    --small-button-font-weight: 700;
-    --small-button-size: 14px;
-    --small-button-line-height: 1rem;
-    --small-button-letter-spacing: 1px;
-    --small-button-text-color: #222549;
+  /* Big button text */
+  --big-button-width: 91px;
+  --big-button-height: 24px;
+  --big-button-font-family: "Libre Franklin", sans-serif;
+  --big-button-weight: 700;
+  --big-button-size: 16px;
+  --big-button-line-height: 1.5rem;
+  --big-button-text-color: #222549;
+  --big-button-letter-spacing: 1px;
 
-    /* Caption text */
-    --caption-width: 45px;
-    --caption-height: 16px;
-    --caption-font-family: 'Libre Franklin', sans-serif;
-    --caption-weight: 500;
-    --caption-size: 12px;
-    --caption-line-height: 1rem;
-    --caption-text-color: #222549;
-    --caption-text-align: center;
+  /* Small button text */
+  --small-button-width: 97px;
+  --small-button-height: 16px;
+  --small-button-font-family: "Libre Franklin", sans-serif;
+  --small-button-font-weight: 700;
+  --small-button-size: 14px;
+  --small-button-line-height: 1rem;
+  --small-button-letter-spacing: 1px;
+  --small-button-text-color: #222549;
 
-    /* Color palette */
-    --primary-color: #353A8D;
-    --accent-color: #40DD9C;
-    --neutral-color: #36385A;
+  /* Caption text */
+  --caption-width: 45px;
+  --caption-height: 16px;
+  --caption-font-family: "Libre Franklin", sans-serif;
+  --caption-weight: 500;
+  --caption-size: 12px;
+  --caption-line-height: 1rem;
+  --caption-text-color: #222549;
+  --caption-text-align: center;
+
+  /* Primary color palette */
+  --primary-color: #353a8d;
+  --accent-color: #40dd9c;
+  --neutral-color: #36385a;
+
+  /* Secondary color palette */
+  --secondary_1-color: #e2e3e9;
+  --secondary_2-color: #9c9db2;
+  --secondary_3-color: #60627d;
+  --secondary_4-color: #4b4d6c;
+  --secondary_5-color: #36385a;
+  --secondary_6-color: #222549;
+  --secondary_7-color: #d8eff0;
+  --secondary_8-color: #45888e;
+  --secondary_9-color: #10246a;
+
+  /* Semantic colors */
+  --success-100-color: #bfdbb3;
+  --success-500-color: #6aa64f;
+  --success-900-color: #3c7425;
+
+  --warning-100-color: #f2dea1;
+  --warning-500-color: #bd8e00;
+  --warning-900-color: #8f6b00;
+
+  --error-100-color: #eca8a7;
+  --error-500-color: #de6664;
+  --error-900-color: #b33a38;
+
+  /* Box shadow */
+  --box-shadow-1: 0px 2px 4px rgba(8, 68, 73, 0.24),
+    0px 4px 16px rgba(8, 68, 73, 0.35);
+  --box-shadow-1-radius: 8px;
+  --box-shadow-2: 0px 8px 24px rgba(8, 68, 73, 0.35);
+  --box-shadow-2-radius: 8px;
+
+  /* Font family */
+  --font-family-franklin: "Libre Franklin", sans-serif; 
 }
 
-
 h1 {
-    font-family: var(--h1-font-family);
-    line-height: var(--h1-line-height);
-    width: var(--h1-width);
-    height: var(--h1-height);
-    font-size:  var(--h1-font-size);
-    font-weight: var(--h1-font-weight);
-    color: var(--h1-text-color);
+  font-family: var(--h1-font-family);
+  line-height: var(--h1-line-height);
+  width: var(--h1-width);
+  height: var(--h1-height);
+  font-size: var(--h1-font-size);
+  font-weight: var(--h1-font-weight);
+  color: var(--h1-text-color);
 }
 
 h2 {
-    font-family: var(--h2-font-family);
-    line-height: var(--h2-line-height);
-    width: var(--h2-width);
-    height: var(--h2-width);
-    font-size: var(--h2-font-size);
-    font-weight: var(--h2-font-weight);
-    color: var(--h2-text-color);
+  font-family: var(--h2-font-family);
+  line-height: var(--h2-line-height);
+  width: var(--h2-width);
+  height: var(--h2-width);
+  font-size: var(--h2-font-size);
+  font-weight: var(--h2-font-weight);
+  color: var(--h2-text-color);
 }
 
 h3 {
-    font-family: var(--h3-font-family);
-    line-height: var(--h3-line-height);
-    width: var(--h3-width);
-    height: var(--h3-width);
-    font-size: var(--h3-font-size);
-    font-weight: var(--h3-font-weight);
-    color: var(--h3-text-color);
+  font-family: var(--h3-font-family);
+  line-height: var(--h3-line-height);
+  width: var(--h3-width);
+  height: var(--h3-width);
+  font-size: var(--h3-font-size);
+  font-weight: var(--h3-font-weight);
+  color: var(--h3-text-color);
 }
 
 h4 {
-    font-family: var(--h4-font-family);
-    line-height: var(--h4-line-height);
-    width: var(--h4-width);
-    height: var(--h4-width);
-    font-size: var(--h4-font-size);
-    font-weight: var(--h4-font-weight);
-    color: var(--h4-text-color);
+  font-family: var(--h4-font-family);
+  line-height: var(--h4-line-height);
+  width: var(--h4-width);
+  height: var(--h4-width);
+  font-size: var(--h4-font-size);
+  font-weight: var(--h4-font-weight);
+  color: var(--h4-text-color);
 }
 
-.body1_text 
-{
-    width: var(--body1-text-width);
-    height: var(--body1-text-height);
-    font-family: var(--body1-text-font-family);
-    font-weight: var(--body1-text-weight);
-    font-size:var(--body1-font-size);
-    line-height: var(--body1-text-line-height);
-    color: var(--body1-text-color);
+.body1_text {
+  width: var(--body1-text-width);
+  height: var(--body1-text-height);
+  font-family: var(--body1-text-font-family);
+  font-weight: var(--body1-text-weight);
+  font-size: var(--body1-font-size);
+  line-height: var(--body1-text-line-height);
+  color: var(--body1-text-color);
 }
 
-.body2_text 
-{
-        width: var(--body2-text-width);
-        height: var(--body2-text-height);
-        font-family:var(--body2-text-font-family);
-        font-weight: var(--body2-text-weight);
-        font-size: var(--body2-font-size);
-        line-height: var(--body2-text-line-height);
-        color: var(--body2-text-color);
+.body2_text {
+  width: var(--body2-text-width);
+  height: var(--body2-text-height);
+  font-family: var(--body2-text-font-family);
+  font-weight: var(--body2-text-weight);
+  font-size: var(--body2-font-size);
+  line-height: var(--body2-text-line-height);
+  color: var(--body2-text-color);
 }
-
 
 .button_big {
-        width: var(--big-button-width);
-        height: var(--big-button-height);
-        font-family: var(--big-button-font-family);
-        font-weight: var(--big-button-weight);
-        font-size: var(--big-button-size);
-        line-height: var(--big-button-line-height);
-        color:var(--big-button-text-color);
-        letter-spacing: var(--big-button-letter-spacing);
+  width: var(--big-button-width);
+  height: var(--big-button-height);
+  font-family: var(--big-button-font-family);
+  font-weight: var(--big-button-weight);
+  font-size: var(--big-button-size);
+  line-height: var(--big-button-line-height);
+  color: var(--big-button-text-color);
+  letter-spacing: var(--big-button-letter-spacing);
 }
 
 .button-small {
-    width: var(--small-button-width);
-    height: var(--small-button-line-height);
-    font-family: var(--small-button-font-family);
-    font-weight: var(--small-button-font-weight);
-    font-size: var(--small-button-size);
-    line-height: var(--small-button-line-height);
-    letter-spacing: var(--small-button-letter-spacing);
-    color: var(--small-button-text-color);
+  width: var(--small-button-width);
+  height: var(--small-button-line-height);
+  font-family: var(--small-button-font-family);
+  font-weight: var(--small-button-font-weight);
+  font-size: var(--small-button-size);
+  line-height: var(--small-button-line-height);
+  letter-spacing: var(--small-button-letter-spacing);
+  color: var(--small-button-text-color);
 }
 
 .caption {
-    width: var(--caption-width);
-    height: var(--caption-height);
-    font-family: var(--caption-font-family);
-    font-weight: var(--caption-weight);
-    font-size: var(--caption-size);
-    line-height: var(--caption-height);
-    color: var(--caption-text-color);
-    text-align: var(--caption-text-align);
+  width: var(--caption-width);
+  height: var(--caption-height);
+  font-family: var(--caption-font-family);
+  font-weight: var(--caption-weight);
+  font-size: var(--caption-size);
+  line-height: var(--caption-height);
+  color: var(--caption-text-color);
+  text-align: var(--caption-text-align);
+}
+
+.primary_palette .primary_color {
+  color: var(--primary-color);
+}
+.primary_palette .accent_color {
+  color: var(--accent-color);
+}
+.primary_palette .neutral_color {
+  color: var(--neutral-color);
+}
+
+.secondary_palette .secondary_1 {
+  color: var(--secondary_1-color);
+}
+.secondary_palette .secondary_2 {
+  color: var(--secondary_2-color);
+}
+.secondary_palette .secondary_3 {
+  color: var(--secondary_3-color);
+}
+.secondary_palette .secondary_4 {
+  color: var(--secondary_4-color);
+}
+.secondary_palette .secondary_5 {
+  color: var(--secondary_5-color);
+}
+.secondary-palette .secondary_6 {
+  color: var(--secondary_6-color);
+}
+.secondary_palette .secondary_7 {
+  color: var(--secondary_7-color);
+}
+.secondary_palette .secondary_8 {
+  color: var(--secondary_8-color);
+}
+.secondary_palette .secondary_9 {
+  color: var(--secondary_9-color);
 }
 
 
-.colors .primary_color {
-    color: #353A8D;
+.success-100 {
+  color: var(--success-100-color);
 }
+
+.success-500 {
+  color: var(--success-500-color);
+}
+.success-900 {
+  color: var(--success-900-color);
+}
+
+.warning-100 {
+  color: var(--warning-100-color);
+}
+.warning-500 {
+  color: var(--warning-500-color);
+}
+.warning-900 {
+  color: var(--warning-900-color);
+}
+
+.error-100 {
+  color: var(--error-100-color);
+}
+.error-500 {
+  color: var(--error-500-color);
+}
+
+.error-900 {
+  color: var(--error-900-color);
+}
+
+/* Shadow */
+.shadow-1 {
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  color: black;
+  width: 100px;
+  height: 100px;
+  box-shadow: var(--box-shadow-1);
+  border-radius: var(--box-shadow-1-radius);
+}
+
+.shadow-2 {
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  color: black;
+  width: 100px;
+  height: 100px;
+  box-shadow: var(--box-shadow-2);
+  border-radius: var(--box-shadow-2-radius);
+}
+
+
+/* Buttons */
+.large_btn 
+{
+  margin-left: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width:133px;
+  height: 48px;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--primary-color);
+
+}
+
+ .large_btn_text {
+  width: 85px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family: var(--font-family-franklin);
+
+}
+
+.normal_btn {
+  margin-left: 100px;
+  margin-bottom: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  
+  width: 103px;
+  height: 40px;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.normal_btn_text {
+  color: #FFFFFF;
+  font-family: var(--font-family-franklin);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+
+.small_btn {
+  position: absolute;
+
+  margin-left: 100px;
+  margin-bottom: 100px;
+  
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  height: 32px;
+
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.small_btn_text {
+    width: 42px;
+    height: 16px;
+
+    font-family: var(--font-family-franklin);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+/* Emfaza */
+.accent_btn {
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+  position: absolute;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+  width: 109px;
+  height: 40px;
+
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+
+.accent_btn_text {
+  font-family: var(--font-family-franklin);
+  font-weight: 700;
+  font-size: 16px;
+
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: var(--primary-color);
+}
+
+.primary_btn {
+  width:109px;
+  height: 40px;
+  
+  margin-left: 100px;
+  margin-bottom: 100px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.primary_btn_text {
+  color:#FFFFFF;
+  font-family: var(--font-family-franklin);
+  font-weight: 700;
+  font-size: 14px;
+
+  line-height: 16px;
+  letter-spacing: 1px;
+} 
+
+.secondary_btn {
+  margin-left: 100px;
+  margin-bottom: 100px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 139px;
+  height: 40px;
+
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid #10246A;
+  box-sizing: border-box;
+}
+
+.secondary_btn_text {
+  color: #353A8C;
+  font-family: var(--font-family-franklin);
+  font-weight: 700;
+  font-size: 16px;
+
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.tertiary_btn {
+  margin-left: 100px;
+  margin-bottom: 100px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 117px;
+  height: 40px;
+
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.tertiary_btn_text {
+  width: 69px;
+  height: 24px;
+
+  font-family: var(--font-family-franklin);
+  font-weight: 700;
+  font-size: 16px;
+
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #10246A;
+}
+
+
