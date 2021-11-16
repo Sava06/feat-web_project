@@ -512,24 +512,6 @@ h4 {
     color: #10246A;
 }
 
-/* .tab .hover_btn {
-  position:absolute;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 8px 5px 8px;
-  border-radius: 8px;
-  background-color: #D8EFF0; */
-/* } */
-
-/* .tab .hover_btn .hover_btn_text {
-  font-family: var(--font-family-franklin);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  text-align: center;
-  color: #4B4D6C;
-} */
-
 .tab .idle_btn {
   position: absolute;
   padding: 5px 8px 5px 8px;
@@ -627,5 +609,41 @@ h4 {
   color: #FFFFFF;
 }
 
+/* Cart icons */
+.cart_icon_normal {
+  position: absolute;
+  cursor: pointer;
+  padding: 16px 16px 16px 16px;
+  border-radius:  4px;
+  background-color: #FFFFFF;
+  line-height: 16px;
+  color: #353A8D;
+}
 
+.cart_icon_normal:hover {
+  background-color: #F3F4F8;
+  transition: .1s ease;
+}
+
+.cart_icon_normal:active {
+background-color: #CFD3E1;
+}
+
+.cart_icon_small {
+  position: absolute;
+  cursor: pointer;
+  padding: 8px 8px 8px 8px;
+  border-radius:  4px;
+  background-color: #FFFFFF;
+  color: #353A8D;
+}
+
+.cart_icon_small:hover {
+  background-color: #F3F4F8;
+  transition: .1s ease;
+}
+
+.cart_icon_small:active {
+  background-color: #CFD3E1;
+  }
 
