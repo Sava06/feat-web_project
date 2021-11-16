@@ -3,12 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
 :root {
   /* H1 */
   --h1-font-family: "Libre Franklin", sans-serif;
   --h1-line-height: 4.31rem;
-  --h1-width: 58px;
-  --h1-height: 69px;
   --h1-font-size: 46px;
   --h1-font-weight: 600;
   --h1-text-color: #222549;
@@ -16,8 +15,6 @@
   /* H2 */
   --h2-font-family: "Libre Franklin", sans-serif;
   --h2-line-height: 3.37rem;
-  --h2-width: 52px;
-  --h2-height: 54px;
   --h2-font-size: 37px;
   --h2-font-weight: 600;
   --h2-text-color: #222549;
@@ -26,8 +23,6 @@
 
   --h3-font-family: "Libre Franklin", sans-serif;
   --h3-line-height: 2.75rem;
-  --h3-width: 40px;
-  --h3-height: 44px;
   --h3-font-size: 28px;
   --h3-font-weight: 600;
   --h3-text-color: #222549;
@@ -35,15 +30,12 @@
   /* H4 */
   --h4-font-family: "Libre Franklin", sans-serif;
   --h4-line-height: 2rem;
-  --h4-width: 30px;
-  --h4-height: 32px;
   --h4-font-size: 21px;
   --h4-font-weight: 600;
   --h4-text-color: #222549;
 
   /* Body 1 text */
-  --body1-text-width: 50px;
-  --body1-text-height: 22px;
+
   --body1-text-font-family: "Libre Franklin", sans-serif;
   --body1-text-weight: 400;
   --body1-font-size: 16px;
@@ -51,8 +43,7 @@
   --body1-text-color: #222549;
 
   /* Body 2 text  */
-  --body2-text-width: 46px;
-  --body2-text-height: 22px;
+  
   --body2-text-font-family: "Libre Franklin", sans-serif;
   --body2-text-weight: 400;
   --body2-font-size: 14px;
@@ -60,8 +51,7 @@
   --body2-text-color: #222549;
 
   /* Big button text */
-  --big-button-width: 91px;
-  --big-button-height: 24px;
+ 
   --big-button-font-family: "Libre Franklin", sans-serif;
   --big-button-weight: 700;
   --big-button-size: 16px;
@@ -70,8 +60,7 @@
   --big-button-letter-spacing: 1px;
 
   /* Small button text */
-  --small-button-width: 97px;
-  --small-button-height: 16px;
+  
   --small-button-font-family: "Libre Franklin", sans-serif;
   --small-button-font-weight: 700;
   --small-button-size: 14px;
@@ -80,8 +69,7 @@
   --small-button-text-color: #222549;
 
   /* Caption text */
-  --caption-width: 45px;
-  --caption-height: 16px;
+ 
   --caption-font-family: "Libre Franklin", sans-serif;
   --caption-weight: 500;
   --caption-size: 12px;
@@ -132,8 +120,6 @@
 h1 {
   font-family: var(--h1-font-family);
   line-height: var(--h1-line-height);
-  width: var(--h1-width);
-  height: var(--h1-height);
   font-size: var(--h1-font-size);
   font-weight: var(--h1-font-weight);
   color: var(--h1-text-color);
@@ -142,8 +128,6 @@ h1 {
 h2 {
   font-family: var(--h2-font-family);
   line-height: var(--h2-line-height);
-  width: var(--h2-width);
-  height: var(--h2-width);
   font-size: var(--h2-font-size);
   font-weight: var(--h2-font-weight);
   color: var(--h2-text-color);
@@ -152,8 +136,6 @@ h2 {
 h3 {
   font-family: var(--h3-font-family);
   line-height: var(--h3-line-height);
-  width: var(--h3-width);
-  height: var(--h3-width);
   font-size: var(--h3-font-size);
   font-weight: var(--h3-font-weight);
   color: var(--h3-text-color);
@@ -162,16 +144,13 @@ h3 {
 h4 {
   font-family: var(--h4-font-family);
   line-height: var(--h4-line-height);
-  width: var(--h4-width);
-  height: var(--h4-width);
   font-size: var(--h4-font-size);
   font-weight: var(--h4-font-weight);
   color: var(--h4-text-color);
 }
 
 .body1_text {
-  width: var(--body1-text-width);
-  height: var(--body1-text-height);
+
   font-family: var(--body1-text-font-family);
   font-weight: var(--body1-text-weight);
   font-size: var(--body1-font-size);
@@ -180,8 +159,7 @@ h4 {
 }
 
 .body2_text {
-  width: var(--body2-text-width);
-  height: var(--body2-text-height);
+ 
   font-family: var(--body2-text-font-family);
   font-weight: var(--body2-text-weight);
   font-size: var(--body2-font-size);
@@ -190,8 +168,7 @@ h4 {
 }
 
 .button_big {
-  width: var(--big-button-width);
-  height: var(--big-button-height);
+  
   font-family: var(--big-button-font-family);
   font-weight: var(--big-button-weight);
   font-size: var(--big-button-size);
@@ -201,8 +178,7 @@ h4 {
 }
 
 .button-small {
-  width: var(--small-button-width);
-  height: var(--small-button-line-height);
+  
   font-family: var(--small-button-font-family);
   font-weight: var(--small-button-font-weight);
   font-size: var(--small-button-size);
@@ -212,8 +188,7 @@ h4 {
 }
 
 .caption {
-  width: var(--caption-width);
-  height: var(--caption-height);
+ 
   font-family: var(--caption-font-family);
   font-weight: var(--caption-weight);
   font-size: var(--caption-size);
@@ -322,21 +297,14 @@ h4 {
 {
   margin-left: 100px;
   margin-bottom: 100px;
-  display: flex;
+ 
   position: absolute;
-  align-items: center;
-  justify-content: center;
-  width:133px;
-  height: 48px;
   border-radius: 4px;
   color: white;
   background-color: var(--primary-color);
+  padding: 12px 24px 12px 24px;
 
-}
-
- .large_btn_text {
-  width: 85px;
-  height: 24px;
+  text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -346,21 +314,14 @@ h4 {
 }
 
 .normal_btn {
+ 
   margin-left: 100px;
   margin-bottom: 100px;
   position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content:center;
-  align-items: center;
-  
-  width: 103px;
-  height: 40px;
   background-color: var(--primary-color);
   border-radius: 4px;
-}
+  padding: 12px 24px 12px 24px;
 
-.normal_btn_text {
   color: #FFFFFF;
   font-family: var(--font-family-franklin);
   font-weight: 700;
@@ -369,37 +330,24 @@ h4 {
   letter-spacing: 1px;
 }
 
-
 .small_btn {
   position: absolute;
 
   margin-left: 100px;
   margin-bottom: 100px;
-  
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  width: 90px;
-  height: 32px;
 
   background-color: var(--primary-color);
   border-radius: 4px;
+  padding:8px 24px 8px 24px;
+
+  font-family: var(--font-family-franklin);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
 }
 
-.small_btn_text {
-    width: 42px;
-    height: 16px;
-
-    font-family: var(--font-family-franklin);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
 
 /* Emfaza */
 .accent_btn {
@@ -407,18 +355,10 @@ h4 {
     margin-bottom: 100px;
 
   position: absolute;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-
-  width: 109px;
-  height: 40px;
-
+  padding: 8px  24px 8px 24px;
   background-color: var(--accent-color);
   border-radius: 4px;
-}
 
-.accent_btn_text {
   font-family: var(--font-family-franklin);
   font-weight: 700;
   font-size: 16px;
@@ -428,23 +368,17 @@ h4 {
   color: var(--primary-color);
 }
 
+
 .primary_btn {
-  width:109px;
-  height: 40px;
-  
+
   margin-left: 100px;
   margin-bottom: 100px;
-
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+ 
   background-color: var(--primary-color);
   border-radius: 4px;
-}
+  padding: 12px 24px 12px 24px;
 
-.primary_btn_text {
   color:#FFFFFF;
   font-family: var(--font-family-franklin);
   font-weight: 700;
@@ -452,26 +386,21 @@ h4 {
 
   line-height: 16px;
   letter-spacing: 1px;
-} 
+}
+
+
 
 .secondary_btn {
   margin-left: 100px;
   margin-bottom: 100px;
   position:absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 139px;
-  height: 40px;
-
+  
+  padding: 8px 24px 8px 24px;
   background-color: #FFFFFF;
   border-radius: 4px;
   border: 1px solid #10246A;
   box-sizing: border-box;
-}
 
-.secondary_btn_text {
   color: #353A8C;
   font-family: var(--font-family-franklin);
   font-weight: 700;
@@ -484,23 +413,10 @@ h4 {
 .tertiary_btn {
   margin-left: 100px;
   margin-bottom: 100px;
-
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 117px;
-  height: 40px;
-
+  padding: 8px 24px 8px 24px;
   border-radius: 4px;
   background-color: #FFFFFF;
-}
-
-.tertiary_btn_text {
-  width: 69px;
-  height: 24px;
-
   font-family: var(--font-family-franklin);
   font-weight: 700;
   font-size: 16px;
@@ -509,5 +425,207 @@ h4 {
   letter-spacing: 1px;
   color: #10246A;
 }
+
+/* Anatomy - States */
+/* idle */
+  .state_idle {
+    position: absolute;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    opacity: 10%;
+    background-color: #FFFFFF;
+  }
+
+  /* hover state */
+  .state_hover {
+    position:absolute;
+    background-color: #FFFFFF;
+
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    opacity: 10%;
+  }
+/* Press state */
+  .state_press {
+    position:absolute;
+
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color:var(--primary-color);
+    border-radius:  4px;
+    opacity: 5%;
+  }
+
+  /* Button Emphasis */
+.accent_emphasis {
+    position: absolute;
+    border-radius: 4px;
+    background-color: var(--accent-color);
+}
+
+.primary_emphasis {
+  position: absolute;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+}
+.secondary_emphasis {
+  position: absolute;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  background-color: #FFFFFF;
+}
+
+.disabled_emphasis {
+  position: absolute;
+  border-radius: 4px;
+  background-color: #E2E3E9;
+}
+
+.elevation_none {
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.big_shadow {
+  position: absolute;
+  border-radius: 4px;
+  background-color:#FFFFFF;
+  box-shadow: 0px 2px 4px rgba(8, 68, 73, 0.24), 0px 4px 16px rgba(8, 68, 73, 0.35); ;
+}
+
+/* Tabs */
+.tab .active_btn {
+  position:absolute;
+  padding: 5px 8px 5px 8px;
+  background-color: #FFFFFF;
+  box-shadow: inset 0px -2px 0px #353A8C;
+}
+
+.tab .active_btn .active_btn_text {
+    font-family: var(--font-family-franklin);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #10246A;
+}
+
+/* .tab .hover_btn {
+  position:absolute;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px 5px 8px;
+  border-radius: 8px;
+  background-color: #D8EFF0; */
+/* } */
+
+/* .tab .hover_btn .hover_btn_text {
+  font-family: var(--font-family-franklin);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #4B4D6C;
+} */
+
+.tab .idle_btn {
+  position: absolute;
+  padding: 5px 8px 5px 8px;
+  background-color: #FFFFFF;
+}
+
+.tab .idle_btn .idle_btn_text {
+  font-family: var(--font-family-franklin);
+  font-weight: 400;
+  font-size:16px;
+  line-height: 22px;
+  text-align: center;
+  color: #4B4D6C;
+  text-decoration: none;
+}
+
+.tab .idle_btn:hover {
+  color: #4B4D6C;
+  background-color: #D8EFF0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .4s ease;
+  
+}
+
+.tab .idle_btn:active {
+  background-color: #FFFFFF;
+  box-shadow: inset 0px -2px 0px #353A8C;
+ 
+  background-color: #FFFFFF ;
+  border-radius: 0;
+  color: #10246A;
+}
+
+.tab .idle_btn .idle_btn_text:active {
+  font-family: var(--font-family-franklin);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+
+/* Accent cart buttons */
+.cart_normal_btn{
+  position: absolute;
+  padding: 16px 24px 16px 24px;
+  color: #FFFFFF;
+  border-radius:  4px;
+  background-color: #353A8D;
+  font-family: var(--font-family-franklin);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.cart_normal_btn:hover {
+  cursor: pointer;
+  transition: .2s ease-in;
+  background-color: #4C53B1;
+  box-shadow: 0 4px 16px rgba(16, 36, 106, 0.25);
+}
+
+/* .cart_normal_btn:focus {
+  background-color: #4C53B1;
+  border: 3px solid #70A6F7;
+} */
+
+.cart_normal_btn:active {
+  background-color: #10246A;
+}
+
+.cart_small_btn{
+  position: absolute;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  background-color: #353A8D ;
+  color:#FFFFFF;
+  font-family: var(--font-family-franklin);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.cart_small_btn:hover {
+  cursor: pointer;
+  transition: .2s ease-in;
+  background-color: #4C53B1;
+  box-shadow: 0px 4px 16px rgba(16, 36, 106, 0.25);
+}
+
+.cart_small_btn:active{
+  background-color:  #10246A;
+  color: #FFFFFF;
+}
+
 
 
