@@ -146,6 +146,10 @@ body {
   display: flex;
 }
 
+.copyright {
+  text-align: center;
+}
+
 
 
 @media  screen and (max-width: 768px) {
@@ -207,6 +211,11 @@ body {
     .about_photo img {
       display: block;
       height: 327px;
+    }
+    .body1_text {
+      color: var(--primary-color);
+      font-weight: 600;
+      
     }
   
 }
