@@ -150,7 +150,28 @@ body {
   text-align: center;
 }
 
-
+/* Albums html */
+.product_items {
+  max-width: 1040px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+  .items {
+    margin-right: 16px;
+  }
+  .albums_products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 32px;
+  max-width: 1040px;
+  justify-content:center;
+  margin: 0 auto;
+}
+.albums {
+  flex-basis: calc(100% / 3);
+}
 
 @media  screen and (max-width: 768px) {
   .container {
@@ -215,14 +236,14 @@ body {
     .body1_text {
       color: var(--primary-color);
       font-weight: 600;
-      
     }
+    /* albums html  */
   
 }
 
+ /* Albums css */
 
-
-
+ 
 
 
 
