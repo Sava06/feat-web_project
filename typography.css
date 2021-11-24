@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background-color:rgba(201, 202, 202, 0.24);
+  background-color: rgba(201, 202, 202, 0.24);
 }
 
 .container {
@@ -15,28 +15,28 @@ body {
 
 .header {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   max-width: 1040px;
   height: 72px;
   margin: 0 auto;
-  border-bottom: 1px solid  rgba(201, 202, 202, 0.24);
+  border-bottom: 1px solid rgba(201, 202, 202, 0.24);
   padding: 0 12px 0 12px;
 }
 
 .photo {
-  display:block;
+  display: block;
   min-height: 200px;
-
 }
-  
-.photo_albums, .frames, .personalized_products {
 
+.photo_albums,
+.frames,
+.personalized_products {
   border-radius: 8px;
   border: 1px solid;
   max-width: 331px;
   margin-bottom: 21px;
-  flex-basis: calc(100% /3);
+  flex-basis: calc(100% / 3);
 }
 
 /* .photo_albums {
@@ -52,12 +52,11 @@ body {
   font-weight: 700;
 }
 
-
 .menu {
   display: flex;
-  margin:0 24px;
-  flex-basis:calc(100% / 2);
-  justify-content:space-between;
+  margin: 0 24px;
+  flex-basis: calc(100% / 2);
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -75,31 +74,29 @@ body {
   max-width: 1040px;
   height: 56px;
   margin: 0 auto;
-
 }
 
 .home {
   cursor: pointer;
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   padding: 8px 16px 8px 16px;
   color: var(--primary-color);
 }
-.home .home_btn{
+.home .home_btn {
   width: 15px;
   height: 16px;
-  padding: 8px ;
+  padding: 8px;
 }
-
 
 .return {
   cursor: pointer;
-  display:flex;
+  display: flex;
   align-items: center;
   width: 30px;
   height: 32px;
   padding: 8px;
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 
 .products {
@@ -109,7 +106,6 @@ body {
   max-width: 1040px;
   justify-content: space-between;
   margin: 0 auto;
-  
 }
 
 .about {
@@ -117,21 +113,20 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: 1040px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .product_related {
   width: 571px;
   height: 176px;
-  
 }
 .footer {
   max-width: 1400px;
-  background-color: var(--secondary_1-color) ;
+  background-color: var(--secondary_1-color);
   margin-top: 112px;
   flex-basis: calc(100% / 2);
 }
-  .contact_us{
+.contact_us {
   display: flex;
   justify-content: space-between;
   max-width: 1040px;
@@ -150,7 +145,7 @@ body {
   text-align: center;
 }
 
-/* Albums html */
+/* albums.html */
 .product_items {
   max-width: 1040px;
   display: flex;
@@ -158,120 +153,127 @@ body {
   margin: 0 auto;
   margin-top: 32px;
 }
-  .items {
-    margin-right: 16px;
-  }
-  .albums_products {
+.items {
+  margin-right: 16px;
+}
+.albums_products {
   display: flex;
   flex-wrap: wrap;
   padding-top: 32px;
   max-width: 1040px;
-  justify-content:center;
+  justify-content: center;
   margin: 0 auto;
 }
 .albums {
   flex-basis: calc(100% / 3);
 }
 
-@media  screen and (max-width: 768px) {
+/* Leather_products.html */
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.leather {
+  max-width: 1040px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.leather_album {
+  flex-basis: calc(100% / 2);
+}
+
+.price_buy {
+  margin-left: 26px;
+}
+.handmade {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  padding: 4px 4px 4px 4px;
+}
+.leather_album .img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart_button_normal {
+  display:flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
   .container {
     padding: 0 16px 0 16px;
   }
 
-    .idle_btn {
-      z-index: -1;
-    }
+  .idle_btn {
+    z-index: -1;
+  }
 
-    .menu_bars {
-      display:block;
-      cursor: pointer;
-    }
+  .menu_bars {
+    display: block;
+    cursor: pointer;
+  }
 
-    .menu_bars:hover {
-      cursor: pointer;
-      background-color: #f3f4f8;
-      transition: 0.1s ease;
-    }
+  .menu_bars:hover {
+    cursor: pointer;
+    background-color: #f3f4f8;
+    transition: 0.1s ease;
+  }
 
-    .menu_bars:active {
-      background-color: #cfd3e1;
-    }
-  
-    .products {
-      display: block;
-      margin: 0 auto;
-    }
+  .menu_bars:active {
+    background-color: #cfd3e1;
+  }
 
-    .photo_albums {
-      margin: 0 auto;
-      margin-top: 36px;
-      
-    }
+  .products {
+    display: block;
+    margin: 0 auto;
+  }
 
-    .frames {
-      margin: 0 auto;
-      margin-top: 21px;
-    }
+  .photo_albums {
+    margin: 0 auto;
+    margin-top: 36px;
+  }
 
-    .personalized_products {
-      margin: 0 auto;
-      margin-top: 21px;
-    }
-    .about {
-      display: flex;
-      flex-direction: column-reverse;
-      flex-wrap: wrap;
-      align-items: center;
-      margin: 0 auto;
-    }
+  .frames {
+    margin: 0 auto;
+    margin-top: 21px;
+  }
 
-    .product_related {
-      margin-top: 24px;
-    }
-    
-    .about_photo img {
-      display: block;
-      height: 327px;
-    }
-    .body1_text {
-      color: var(--primary-color);
-      font-weight: 600;
-    }
-    /* albums html  */
-  
+  .personalized_products {
+    margin: 0 auto;
+    margin-top: 21px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .product_related {
+    margin-top: 24px;
+  }
+
+  .about_photo img {
+    display: block;
+    height: 327px;
+  }
+  .body1_text {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  /* albums html  */
 }
 
- /* Albums css */
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Albums css */
 
 :root {
   /* H1 */
@@ -346,8 +348,6 @@ body {
   --caption-text-color: var(--secondary_6-color);
   --caption-text-align: center;
 
-  
-
   /* Box shadow */
   --box-shadow-1: 0px 2px 4px rgba(8, 68, 73, 0.24),
     0px 4px 16px rgba(8, 68, 73, 0.35);
@@ -405,8 +405,6 @@ h4 {
   font-size: var(--body2-font-size);
   line-height: var(--body2-text-line-height);
   color: var(--body2-text-color);
- 
-  
 }
 
 .button_big {
@@ -508,7 +506,6 @@ h4 {
 
 /* Shadow */
 .shadow-1 {
- 
   color: black;
   width: 100px;
   height: 100px;
@@ -517,7 +514,6 @@ h4 {
 }
 
 .shadow-2 {
-
   color: black;
   width: 100px;
   height: 100px;
@@ -527,7 +523,6 @@ h4 {
 
 /* Buttons */
 .large_btn {
-
   border-radius: 4px;
   color: white;
   background-color: var(--primary-color);
@@ -555,7 +550,6 @@ h4 {
 }
 
 .small_btn {
-  
   background-color: var(--primary-color);
   border-radius: 4px;
   padding: 8px 24px 8px 24px;
@@ -589,7 +583,6 @@ h4 {
 .primary_btn {
   margin-left: 100px;
   margin-bottom: 100px;
- 
 
   background-color: var(--primary-color);
   border-radius: 4px;
@@ -650,7 +643,6 @@ h4 {
 
 /* hover state */
 .state_hover {
-  
   background-color: #ffffff;
 
   margin-left: 100px;
@@ -660,8 +652,6 @@ h4 {
 }
 /* Press state */
 .state_press {
- 
-
   margin-left: 100px;
   margin-bottom: 100px;
   background-color: var(--primary-color);
@@ -671,25 +661,21 @@ h4 {
 
 /* Button Emphasis */
 .accent_emphasis {
- 
   border-radius: 4px;
   background-color: var(--accent-color);
 }
 
 .primary_emphasis {
-  
   border-radius: 4px;
   background-color: var(--primary-color);
 }
 .secondary_emphasis {
- 
   border-radius: 4px;
   border: 1px solid var(--primary-color);
   background-color: #ffffff;
 }
 
 .disabled_emphasis {
- 
   border-radius: 4px;
   background-color: #e2e3e9;
 }
@@ -700,7 +686,6 @@ h4 {
 }
 
 .big_shadow {
- 
   border-radius: 4px;
   background-color: #ffffff;
   box-shadow: 0px 2px 4px rgba(8, 68, 73, 0.24),
@@ -709,7 +694,6 @@ h4 {
 
 /* Tabs */
 .tab .active_btn {
-
   padding: 5px 8px 5px 8px;
   background-color: #ffffff;
   box-shadow: inset 0px -2px 0px var(--primary-color);
@@ -757,10 +741,8 @@ h4 {
   line-height: 22px;
 }
 
-
 /* Accent cart buttons */
 .cart_normal_btn {
-
   padding: 16px 24px 16px 24px;
   color: #ffffff;
   border-radius: 4px;
@@ -780,8 +762,8 @@ h4 {
 }
 
 .cart_normal_btn:focus {
-  background-color: #4C53B1;
-  border: 3px solid #70A6F7;
+  background-color: #4c53b1;
+  border: 3px solid #70a6f7;
 }
 
 .cart_normal_btn:active {
@@ -814,7 +796,6 @@ h4 {
 
 /* Cart icons */
 .cart_icon_normal {
-  
   cursor: pointer;
   padding: 16px 16px 16px 16px;
   border-radius: 4px;
